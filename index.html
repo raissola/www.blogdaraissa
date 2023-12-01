@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ppt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>www.blogdaraissa.com</title>
+
+    <style>
+        body{
+            background-color: rgb(255, 190, 238);
+            color:rgb(9, 3, 2);
+            text-align: center;
+            font-family: Georgia;
+        }
+
+         * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: space-between;
+        }
+        .title { 
+          text-align: center;
+          width: 100%;
+          margin: 30px;
+        }
+        
+        .col {
+          align-self: center;
+          background-color: rgb(255, 169, 232);
+          display: flex;
+          justify-content: center;
+          height: 30px;
+          margin: 8px;
+          width: 100%;
+        }
+        
+        @media only screen and (min-width: 768px) {
+            .col  {
+                width: 45%;
+            }
+        }
+        
+        @media only screen and (min-width: 1024px) {
+            .col  {
+                width: 23%;
+            }
+        }
+        
+        .col p {
+          align-self: center;
+        }
+        a{
+          text-decoration: none;
+          color: rgb(9, 3, 2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title"><i>*⊹.blog da raissa.⋆˚𖥔</i></h1>
+        <div class="col">
+        <a href="mim.html"><h3>sobre o site</h3></a> 
+        </div>
+        <div class="col">
+        <a href="filmes.html"><h3>filmes favoritos</h3></a>
+        </div>
+        <div class="col">
+        <a href="musicas.html"><h3>minha playlist</h3></a>
+        </div>
+        <div class="col">
+        <a href="diario.html"><h3>meu diário <b>secreto</b></h3></a>
+        </div>
+      </div>
+</body>
+</html>
